@@ -4,8 +4,6 @@ import datetime
 constellations = ('Aries', 'Taurus', 'Gemini', 'Cancer', 'Leo', 'Virgo',
                   'Libra', 'Scorpio', 'Sagittarius', 'Capricornus', 'Aquarius', 'Pisces')
 
-ephem.
-
 def celestialinfo(celestial,place,date):
     place.date = date
     celestial.compute(place)
